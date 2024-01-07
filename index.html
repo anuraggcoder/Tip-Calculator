@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ffd9a25e79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="bill">
+                    <p>Bill</p>
+                    <!-- <i class="fa-solid fa-dollar-sign"></i> -->
+                    <input type="text" placeholder="0" maxlength="10" id="bill">
+                
+                </div>
+                <div class="tip">
+                    <p>Select tip %</p>
+                    <div class="btns">
+                        <button class="discount">5%</button>
+                        <button class="discount">10%</button>
+                        <button class="discount">15%</button>
+                        <button class="discount">25%</button>
+                        <button class="discount">50%</button>
+                        <input type="text" class="tip" placeholder="Custom" maxlength="2">
+                    </div>
+                </div>
+                <div class="people">
+                    <p>Number of People</p>
+                    <input type="text" placeholder="0" maxlength="3">
+                </div>
+            </div>
+            <div class="right">
+                <div class="tip_info">
+                    <div class="amount">
+                        <p class="tip_heading">Tip Amount</p>
+                        <p class="tip_person">/ person</p>
+                        <p class="tip">$0.00</p>
+
+                    </div>
+                    <div class="amount">
+                        <p class="tip_heading">Total</p>
+                        <p class="tip_person">/ person</p>
+                        <p class="tip">$0.00</p>
+                    </div>
+                </div>
+                <div class="reset_button">
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
